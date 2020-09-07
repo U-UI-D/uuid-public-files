@@ -1,4 +1,4 @@
-cd ../uuid-common
+cd ./uuid-common
 git pull
 
 cd ../uuid-config
