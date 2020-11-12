@@ -22,6 +22,10 @@ cd ../uuid-dependencies-spring-cloud-component
 git push --progress "gitee" master:master
 git push --progress "origin" master:master
 
+cd ../uuid-domain
+git push --progress "gitee" master:master
+git push --progress "origin" master:master
+
 cd ../uuid-eureka
 git push --progress "gitee" master:master
 git push --progress "origin" master:master

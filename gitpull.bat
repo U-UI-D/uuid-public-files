@@ -16,6 +16,9 @@ git pull
 cd ../uuid-dependencies-spring-cloud-component
 git pull
 
+cd ../uuid-domain
+git pull
+
 cd ../uuid-eureka
 git pull
 

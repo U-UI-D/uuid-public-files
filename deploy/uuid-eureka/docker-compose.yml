@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  uuid-eureka-1:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-eureka:1.0.0
+    container_name: uuid-eureka-1
+    ports:
+      - 8888:8888
+    restart: always
+
+#  uuid-eureka-2:
+#    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-eureka:1.0.0
+#    container_name: uuid-eureka-2
+#    ports:
+#      - 8889:8888
+#    restart: always
+
+networks:
+  uuid_net:
+    external: true
