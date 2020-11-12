@@ -4,7 +4,7 @@ services:
     image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-admin:1.0.0
     container_name: uuid-service-admin
     ports:
-      - 8761:8761
+      - 8001:8001
     restart: always
 
 networks:
