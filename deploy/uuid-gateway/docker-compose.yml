@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-gateway:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-gateway:1.0.0
+    container_name: uuid-gateway
+    ports:
+      - 8000:8000
+    restart: always
+
+networks:
+  default:
+    external:
+      name: uuid_net

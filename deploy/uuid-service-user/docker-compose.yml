@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-service-user:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-user:1.0.0
+    container_name: uuid-service-user
+    ports:
+      - 9001:9001
+    restart: always
+
+networks:
+  default:
+    external:
+      name: uuid_net

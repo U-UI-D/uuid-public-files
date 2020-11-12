@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-service-work:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-work:1.0.0
+    container_name: uuid-service-work
+    ports:
+      - 9002:9002
+    restart: always
+
+networks:
+  default:
+    external:
+      name: uuid_net
