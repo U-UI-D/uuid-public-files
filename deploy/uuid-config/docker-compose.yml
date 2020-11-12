@@ -15,5 +15,6 @@ services:
 #    restart: always
 
 networks:
-  uuid_net:
-    external: true
+  default:
+    external:
+      name: uuid_net
