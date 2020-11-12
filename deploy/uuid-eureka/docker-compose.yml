@@ -4,7 +4,7 @@ services:
     image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-eureka:1.0.0
     container_name: uuid-eureka-1
     ports:
-      - 8888:8888
+      - 8761:8761
     restart: always
 
 #  uuid-eureka-2:
