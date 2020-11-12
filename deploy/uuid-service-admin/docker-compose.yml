@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-service-admin:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-admin:1.0.0
+    container_name: uuid-service-admin
+    ports:
+      - 8761:8761
+    restart: always
+
+networks:
+  default:
+    external:
+      name: uuid_net
