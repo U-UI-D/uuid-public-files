@@ -7,7 +7,7 @@ services:
       - 9003:9003
     restart: always
 
-netcomments:
+networks:
   default:
     external:
       name: uuid_net
