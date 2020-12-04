@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-service-shop:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-shop:1.0.0
+    container_name: uuid-service-shop
+    ports:
+      - 9004:9004
+    restart: always
+
+netshops:
+  default:
+    external:
+      name: uuid_net

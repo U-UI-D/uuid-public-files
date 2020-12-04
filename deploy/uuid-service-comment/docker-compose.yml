@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  uuid-service-comment:
+    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-service-comment:1.0.0
+    container_name: uuid-service-comment
+    ports:
+      - 9003:9003
+    restart: always
+
+netcomments:
+  default:
+    external:
+      name: uuid_net
