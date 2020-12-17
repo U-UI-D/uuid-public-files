@@ -6,6 +6,11 @@ services:
     ports:
       - 9001:9001
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 250M
 
 networks:
   default:

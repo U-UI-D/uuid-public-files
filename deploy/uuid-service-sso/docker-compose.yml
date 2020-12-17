@@ -6,6 +6,11 @@ services:
     ports:
       - 1111:1111
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 100M
 
 networks:
   default:

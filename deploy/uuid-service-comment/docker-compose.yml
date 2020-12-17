@@ -6,6 +6,11 @@ services:
     ports:
       - 9003:9003
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 200M
 
 networks:
   default:

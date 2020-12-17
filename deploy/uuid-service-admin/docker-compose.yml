@@ -6,6 +6,11 @@ services:
     ports:
       - 8001:8001
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 450M
 
 networks:
   default:

@@ -6,6 +6,11 @@ services:
     ports:
       - 8761:8761
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 100M
 
 #  uuid-eureka-2:
 #    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-eureka:1.0.0
