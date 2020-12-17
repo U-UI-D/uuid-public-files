@@ -9,8 +9,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.10'
-          memory: 100M
+          cpus: '0.20'
+          memory: 180M
 
 #  uuid-config-2:
 #    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-config:1.0.0

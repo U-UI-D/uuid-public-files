@@ -10,7 +10,7 @@ services:
       resources:
         limits:
           cpus: '0.25'
-          memory: 250M
+          memory: 300M
 
 networks:
   default:
