@@ -6,6 +6,11 @@ services:
     ports:
       - 8888:8888
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 100M
 
 #  uuid-config-2:
 #    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-config:1.0.0

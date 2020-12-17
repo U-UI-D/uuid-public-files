@@ -10,4 +10,4 @@ wget https://gitee.com/U-UI-D/uuid-public-files/raw/master/deploy/uuid-config/do
 
 docker rmi registry.cn-shenzhen.aliyuncs.com/uuid/uuid-config:1.0.0
 
-docker-compose up -d
+docker-compose --compatibility up -d
