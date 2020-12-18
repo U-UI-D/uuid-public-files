@@ -9,8 +9,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.20'
-          memory: 180M
+          cpus: '0.50'
+          memory: 300M
 
 networks:
   default:

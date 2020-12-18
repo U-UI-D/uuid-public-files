@@ -9,8 +9,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.20'
-          memory: 180M
+          cpus: '0.5'
+          memory: 300M
 
 #  uuid-eureka-2:
 #    image: registry.cn-shenzhen.aliyuncs.com/uuid/uuid-eureka:1.0.0
